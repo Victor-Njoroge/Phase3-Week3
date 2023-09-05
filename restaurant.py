@@ -16,3 +16,6 @@ class Restaurant(Base):
         self.restaurant_price = restaurant_price
 
     reviews = relationship("Review", back_populates="restaurant")
+
+
+

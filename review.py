@@ -22,3 +22,5 @@ class Review(Base):
         self.restaurant = restaurant
         self.rating = rating
         self.comments = comments
+
+

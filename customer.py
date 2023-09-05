@@ -17,3 +17,7 @@ class Customer(Base):
         self.lastName = lastName
 
     reviews = relationship("Review", back_populates="customer")
+
+
+ 
+        
